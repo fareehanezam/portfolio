@@ -1,0 +1,77 @@
+/* Style for body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  /* Style for header */
+  h2 {
+    color: #e9e2e2;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  /* Style for main content */
+  .content {
+    background-color: #000000;
+    color: rgb(112, 115, 76);
+    padding: 50px 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: justify;
+  }
+  
+  .about {
+    margin-bottom: 30px;
+  }
+  
+  .about p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .location h2,
+  .Email h2 {
+    color: #fdfeff;
+    margin-bottom: 10px;
+  }
+  
+  .location p,
+  .Email p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  .location, .Email {
+    text-align: center;
+  }
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  ul li {
+    margin-right: 20px;
+  }
+  
+  ul li:last-child {
+    margin-right: 0;
+  }
+  
+  ul li a {
+    color: #0077b6;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  ul li a:hover {
+    color: #004e7c;
+  }
+  

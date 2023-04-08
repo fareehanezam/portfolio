@@ -1,0 +1,51 @@
+/* Cover section styles */
+.cover {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .container {
+    text-align: center;
+    color: #fff;
+  }
+  
+  h1 {
+    font-size: 6rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    font-family: inherit;
+    color: #fcfcfc;
+    text-transform: uppercase;
+  }
+  
+  .explore-btn {
+    display: inline-block;
+    background: #f5f3f7;
+    color: #000000;
+    padding: 1rem 2rem;
+    margin-top: 2rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    border-radius: 2rem;
+    transition: 0.3s ease-out; 
+  }
+  
+  .explore-btn:hover {
+    background-color: #f76f6f;
+    color: #fff;
+  }
+  
+  /* Video background */
+  video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+  }
+  

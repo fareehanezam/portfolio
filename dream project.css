@@ -1,0 +1,96 @@
+/* font styles for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: black;
+    color: #f9f3f3;
+  }
+  
+  /* Style of the content section */
+  .content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Style of the container for the future projects list */
+  .container {
+    margin-top: 50%;
+  }
+  
+  /* Style of the future projects list */
+  ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  /* Style of the slideshow container */
+  .slideshow-container {
+    max-width: 800px;
+    position: relative;
+    margin: 0 auto;
+  }
+  
+  /* Style of the full image containers */
+  .Containers {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  /* Style of the back and forward buttons */
+  .Back, .forward {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Position of the back button */
+  .Back {
+    left: 0;
+  }
+  
+  /* Position of the forward button */
+  .forward {
+    right: 0;
+  }
+  
+  /* Style the dots/circles */
+  .dots {
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #bbb;
+  }
+  
+  /* Style the active dot */
+  .active {
+    background-color: #fff;
+  }
+  
+  /* Set styles for images */
+  img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Set styles for headings */
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
